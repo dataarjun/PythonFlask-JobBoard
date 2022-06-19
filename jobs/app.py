@@ -1,2 +1,1 @@
-import flask
-from flask import render_template
+from flask import Flask, redirect, url_for, render_template, request, flash
